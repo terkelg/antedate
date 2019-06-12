@@ -1,29 +1,44 @@
 {
   "name": "antedate",
-  "version": "0.0.0-beta.0",
-  "description": "Prerender static sites",
-  "author": "Terkel Gjervig",
+  "version": "0.0.10",
+  "repository": "terkelg/antedate",
+  "description": "pre-render static websites with ease",
   "main": "src/index.js",
+  "license": "MIT",
   "bin": "src/bin.js",
-  "files": [
-    "src"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/terkelg/antedate"
+  "author": {
+    "name": "Terkel Gjervig",
+    "email": "terkel@terkel.com",
+    "url": "https://terkel.com"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "scripts": {
     "start": "node src/bin.js",
     "test": "tape test/*.js | tap-spec"
   },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "cli",
-    "prerender",
-    "static"
+    "static",
+    "chrome",
+    "browser",
+    "chromium",
+    "headless",
+    "prerender"
   ],
-  "license": "MIT",
+  "dependencies": {
+    "eliminate": "^1.1.0",
+    "mkdirplz": "^1.0.1",
+    "puppeteer": "^1.19.0",
+    "sade": "^1.6.1",
+    "sirv": "^0.4.2"
+  },
   "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
   }
 }
