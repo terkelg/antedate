@@ -1,0 +1,29 @@
+{
+  "name": "antedate",
+  "version": "0.0.0-beta.0",
+  "description": "Prerender static sites",
+  "author": "Terkel Gjervig",
+  "main": "src/index.js",
+  "bin": "src/bin.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terkelg/antedate"
+  },
+  "scripts": {
+    "start": "node src/bin.js",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "keywords": [
+    "cli",
+    "prerender",
+    "static"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
