@@ -1,6 +1,6 @@
 {
   "name": "antedate",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "repository": "terkelg/antedate",
   "description": "pre-render static websites with ease",
   "main": "src/index.js",
